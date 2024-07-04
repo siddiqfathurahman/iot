@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.kotak1 {
+    width: 100%;
+    height: 40rem;
+    background-color: #171F30;
+}
+
+.kotak1 h1 {
+    color: #8BFDF6;
+    padding: 8rem 0 0 10rem;
+    font-size: 10rem;
+    line-height: 125px;
+}
+
+.kotak1 h2{
+    padding: 2rem 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+.kotak1 img {
+    width: auto;
+    height: 33rem;
+    float: right;
+    padding: 7rem 12rem 0 0;
+    z-index: 1;
+}
+
+@media screen and (max-width:810px) {
+
+    .kotak1 {
+        height: 50rem;
+    }
+
+    .kotak1 h1 {
+        padding: 0;
+        font-size: 5rem;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .kotak1 img {
+        padding: 3rem 0 0 3rem;
+        float: none;
+        height: 25rem;
+    }
+}
